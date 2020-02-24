@@ -1,0 +1,41 @@
+<br>
+<div class="bg-danger container ">
+ 
+
+
+
+  
+  <div class="row">
+    <div class="col-md-4">   <h1><%= add %></h1>
+    <p>Welcome to <%= add %></p>
+    
+     <ul style="list-style-type: none">
+    <li><a class="btn btn-success"  href="/sview">View Subscriber</a></li><br>
+    <li><a class="btn btn-success"  href="/">Home</a></li>
+    </ul>
+    <br></div>
+    <br>
+    <div class="col-md-4 bg-primary" style="border-radius: 10px">
+
+  <form action="/postsubscriber" method="POST">
+    <div class="form-group">
+      <label for="emailfirst">Email1:</label>
+      <input type="text" id="emailfirst" class="form-control"  placeholder="Enter email1" name="emailfirst" required>
+    </div>
+
+     <div class="form-group">
+      <label for="emailsecond">Email2:</label>
+      <input type="text"  id="emailsecond" class="form-control"  placeholder="Enter email2" name="emailsecond" required>
+    </div>
+    
+  
+    <button type="submit" id="submits" class="btn btn-default">Submit</button>
+  </form>
+
+</div>
+
+    </div>   <br>
+  </div>
+    </div>
+
+
